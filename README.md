@@ -1,5 +1,5 @@
 
-感谢TKkk-iOSer作者
+感谢TKkk-iOSer
 
 我添加了两个小功能
 
