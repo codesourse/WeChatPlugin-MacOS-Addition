@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A9D60A54D4FB51E9146886966D7237 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA9C7584F6ECCA7B93C97071B8E06FD /* GCDWebServerDataResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1030C8B81A629CD94C5BB724F43DE01A /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = AD934FDE6E1E03D800993B6FBD703C49 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13707DD82B4D8BE38D4B5EA6685B0512 /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C91F9B4EDCD47C672421749322EED2A /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A73D183901851E105D967F75F9C6A03 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D4129C15432FC6DCEDDF5B728F2487 /* GCDWebServerFunctions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		25308AA91CADA066ACA7906A151292C0 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F11DCD006190ABEE70CC483F85BEAE /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A8C82556068F34A4AF366F3F58C6A6C /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E23FE3CA5766104126CBE96CC7EE4 /* GCDWebServerFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		401B264F701B403800E535042082BBBE /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FFEE0F54264497B029AD60944930103 /* GCDWebServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DE5725CADFF60A1F0B2D4752BEACA88 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FB3E171546BAD03286C01BDE93D488 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		535AF658D2F3B190D357EC2BA6B9918E /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B630A9A37E41DCD8AC634B969621CA /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5EDEF232C5C6E2B7990BBF27DED20AC1 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6846F341E18A25D3C46D3DF60F988F /* GCDWebServerErrorResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6823EE230B921E4C984BB31649A71B08 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BA219576BE943AA50F13F16E72D087 /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6D20E624AF5F0FD7ADE2B6FFD3956843 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9561B334162136E0906A61F21C8D7A59 /* GCDWebServer-dummy.m */; };
+		820659E65150551CA02F98717E97513A /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8DB04B2C1B62D59836C7470DC47BF0 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8330F16950EDF3D25C2F121C264765B9 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A29477E4FDEE7A388A43030241B2FD0D /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		922AA77D956412241D76CB6A81D281AA /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBF232798AFA734314EF5706C2266EF /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96BFA39AE1136ADC32CCA69F2F9CB5BA /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCC8C82C9E2148241A0D43AA18ABAEC /* GCDWebServerMultiPartFormRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		98044F52E3693B11C39D33E8B08E5B75 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2597AFE660992FF53665CA217071FC /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B43C8C33281498ED011CB6DDFC2A8FB /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A56781B9F56547331A8CA30F50C668B /* GCDWebServerFileRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A20D3432C821E60FFBAE22090D015922 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E2F7DC99FCCE5FFC0B68C1E5D78999 /* GCDWebServerDataRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A3D8C2E0E2013C29FC965B16800BBF52 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263F9C3C79A406B8BBF6B44B972A00D4 /* SystemConfiguration.framework */; };
+		AD2A5C5AE34B7760FB7329489AE2E281 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 48108720016F8C36841D715346578EFC /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9B97BD58AB0670F218A3CE30908EAB8 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C933DCC2958CF6D4A8587037ECC5ED49 /* GCDWebServerStreamedResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C062E744426F8C0ED58055243586A7A2 /* Pods-WeChatPlugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D553BFA1974313EE94E8A99A9FD19901 /* Pods-WeChatPlugin-dummy.m */; };
+		D077C26EAEA3ACABA1C2260D160174B7 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0599CB4D98C3A99F712C3AB50534D7 /* GCDWebServerURLEncodedFormRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D0B97A883D1E0701396B24C1A2F02130 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E07368983762A990E6AC1901F8C7E8C0 /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D40AB431A9767A447E24FDE5C4607BD5 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACCFCBE32916C01AC927F9E49F8F23F /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D966D07C58A4DD14C018DE4D37943303 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9320C72FA5F09CCB6B3B2F47D08862 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9B9C04DCD0770E7ACC0E4FC492F47E2 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 686764DB0A134DC9507184FD1F36528F /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7C5051A0F34B996B9E419091CBBF31D /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 447FB3F6BBE9C8E1FF0F880C04FE1BE0 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC592756E403C261F95C1A266656278F /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD3FD375EC8DE48330163501DF5C1A3 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0CCC36B49CAE05E97134F67810E5FA0 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5354CB0EE3395987D4778AC2A6B3F34 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784C8A0788BAFB05139D1932881B3255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA6073B92C45467389013BD117D2DAA;
+			remoteInfo = GCDWebServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0599CB4D98C3A99F712C3AB50534D7 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		1C6846F341E18A25D3C46D3DF60F988F /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		1CA9C7584F6ECCA7B93C97071B8E06FD /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		1E8DB04B2C1B62D59836C7470DC47BF0 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		263F9C3C79A406B8BBF6B44B972A00D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2CBF232798AFA734314EF5706C2266EF /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		31F11DCD006190ABEE70CC483F85BEAE /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		3BE6880EF56FA9361253885BDD907FC0 /* libGCDWebServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGCDWebServer.a; path = libGCDWebServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFEE0F54264497B029AD60944930103 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		41BA219576BE943AA50F13F16E72D087 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		447FB3F6BBE9C8E1FF0F880C04FE1BE0 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		48108720016F8C36841D715346578EFC /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		58BA8F431BE00F613D3317DA5F7E55BE /* Pods-WeChatPlugin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeChatPlugin-resources.sh"; sourceTree = "<group>"; };
+		59FB424B65BA8749C592C22A861842B0 /* Pods-WeChatPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatPlugin.release.xcconfig"; sourceTree = "<group>"; };
+		686764DB0A134DC9507184FD1F36528F /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		6ACCFCBE32916C01AC927F9E49F8F23F /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		73E2F7DC99FCCE5FFC0B68C1E5D78999 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		79FB3E171546BAD03286C01BDE93D488 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		8A56781B9F56547331A8CA30F50C668B /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		8C91F9B4EDCD47C672421749322EED2A /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9561B334162136E0906A61F21C8D7A59 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		99983F513BD839D7630C8FE9EA18BB72 /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
+		A29477E4FDEE7A388A43030241B2FD0D /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		ACD3FD375EC8DE48330163501DF5C1A3 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		AD934FDE6E1E03D800993B6FBD703C49 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		B4D4129C15432FC6DCEDDF5B728F2487 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		B521BBD580348CB87A38C576076CD828 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		B5354CB0EE3395987D4778AC2A6B3F34 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		B6E96BE62771B97B9CFD7F69B22FD63B /* Pods-WeChatPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatPlugin.debug.xcconfig"; sourceTree = "<group>"; };
+		BDCC8C82C9E2148241A0D43AA18ABAEC /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		C746BC5F81D6E065553B50D616B657B1 /* Pods-WeChatPlugin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeChatPlugin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C933DCC2958CF6D4A8587037ECC5ED49 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		CD9320C72FA5F09CCB6B3B2F47D08862 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		CE2597AFE660992FF53665CA217071FC /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		D553BFA1974313EE94E8A99A9FD19901 /* Pods-WeChatPlugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeChatPlugin-dummy.m"; sourceTree = "<group>"; };
+		DBAA70269ADCEE126AA98C1805B88210 /* Pods-WeChatPlugin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeChatPlugin-acknowledgements.plist"; sourceTree = "<group>"; };
+		E07368983762A990E6AC1901F8C7E8C0 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		E2B630A9A37E41DCD8AC634B969621CA /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		E35409E1539404F26D0FACA8C4764D15 /* libPods-WeChatPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeChatPlugin.a"; path = "libPods-WeChatPlugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32E23FE3CA5766104126CBE96CC7EE4 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBD07A0910E9050F9D9CE0BB88158414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA05181BD8C1082C54933D4979E409F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D8C2E0E2013C29FC965B16800BBF52 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20DA8894821173B2D5DBB47730DA4B73 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0AF5B792F2FFBAAFB87B2E35979B38 /* Pods-WeChatPlugin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE84054513DA991A5D163AB3FBDA147 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DF77B4074255A7EA07856C3693BE562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE6880EF56FA9361253885BDD907FC0 /* libGCDWebServer.a */,
+				E35409E1539404F26D0FACA8C4764D15 /* libPods-WeChatPlugin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE84054513DA991A5D163AB3FBDA147 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				263F9C3C79A406B8BBF6B44B972A00D4 /* SystemConfiguration.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		6F0AF5B792F2FFBAAFB87B2E35979B38 /* Pods-WeChatPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C746BC5F81D6E065553B50D616B657B1 /* Pods-WeChatPlugin-acknowledgements.markdown */,
+				DBAA70269ADCEE126AA98C1805B88210 /* Pods-WeChatPlugin-acknowledgements.plist */,
+				D553BFA1974313EE94E8A99A9FD19901 /* Pods-WeChatPlugin-dummy.m */,
+				58BA8F431BE00F613D3317DA5F7E55BE /* Pods-WeChatPlugin-resources.sh */,
+				B6E96BE62771B97B9CFD7F69B22FD63B /* Pods-WeChatPlugin.debug.xcconfig */,
+				59FB424B65BA8749C592C22A861842B0 /* Pods-WeChatPlugin.release.xcconfig */,
+			);
+			name = "Pods-WeChatPlugin";
+			path = "Target Support Files/Pods-WeChatPlugin";
+			sourceTree = "<group>";
+		};
+		72AF8EEFF7B203B26AE1540CB6509F2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99983F513BD839D7630C8FE9EA18BB72 /* GCDWebServer.xcconfig */,
+				9561B334162136E0906A61F21C8D7A59 /* GCDWebServer-dummy.m */,
+				B521BBD580348CB87A38C576076CD828 /* GCDWebServer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				D6EA29A8074872FE514A13C71E506613 /* Pods */,
+				3DF77B4074255A7EA07856C3693BE562 /* Products */,
+				20DA8894821173B2D5DBB47730DA4B73 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DE9E40A059FF7170DA0C524017E33A /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				F69B652617BBBAEED8DAD343CDA83C1F /* Core */,
+				72AF8EEFF7B203B26AE1540CB6509F2A /* Support Files */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		D6EA29A8074872FE514A13C71E506613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8DE9E40A059FF7170DA0C524017E33A /* GCDWebServer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F69B652617BBBAEED8DAD343CDA83C1F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3FFEE0F54264497B029AD60944930103 /* GCDWebServer.h */,
+				41BA219576BE943AA50F13F16E72D087 /* GCDWebServer.m */,
+				447FB3F6BBE9C8E1FF0F880C04FE1BE0 /* GCDWebServerConnection.h */,
+				31F11DCD006190ABEE70CC483F85BEAE /* GCDWebServerConnection.m */,
+				48108720016F8C36841D715346578EFC /* GCDWebServerDataRequest.h */,
+				73E2F7DC99FCCE5FFC0B68C1E5D78999 /* GCDWebServerDataRequest.m */,
+				A29477E4FDEE7A388A43030241B2FD0D /* GCDWebServerDataResponse.h */,
+				1CA9C7584F6ECCA7B93C97071B8E06FD /* GCDWebServerDataResponse.m */,
+				CD9320C72FA5F09CCB6B3B2F47D08862 /* GCDWebServerErrorResponse.h */,
+				1C6846F341E18A25D3C46D3DF60F988F /* GCDWebServerErrorResponse.m */,
+				B5354CB0EE3395987D4778AC2A6B3F34 /* GCDWebServerFileRequest.h */,
+				8A56781B9F56547331A8CA30F50C668B /* GCDWebServerFileRequest.m */,
+				1E8DB04B2C1B62D59836C7470DC47BF0 /* GCDWebServerFileResponse.h */,
+				F32E23FE3CA5766104126CBE96CC7EE4 /* GCDWebServerFileResponse.m */,
+				ACD3FD375EC8DE48330163501DF5C1A3 /* GCDWebServerFunctions.h */,
+				B4D4129C15432FC6DCEDDF5B728F2487 /* GCDWebServerFunctions.m */,
+				AD934FDE6E1E03D800993B6FBD703C49 /* GCDWebServerHTTPStatusCodes.h */,
+				E07368983762A990E6AC1901F8C7E8C0 /* GCDWebServerMultiPartFormRequest.h */,
+				BDCC8C82C9E2148241A0D43AA18ABAEC /* GCDWebServerMultiPartFormRequest.m */,
+				8C91F9B4EDCD47C672421749322EED2A /* GCDWebServerPrivate.h */,
+				2CBF232798AFA734314EF5706C2266EF /* GCDWebServerRequest.h */,
+				686764DB0A134DC9507184FD1F36528F /* GCDWebServerRequest.m */,
+				CE2597AFE660992FF53665CA217071FC /* GCDWebServerResponse.h */,
+				E2B630A9A37E41DCD8AC634B969621CA /* GCDWebServerResponse.m */,
+				79FB3E171546BAD03286C01BDE93D488 /* GCDWebServerStreamedResponse.h */,
+				C933DCC2958CF6D4A8587037ECC5ED49 /* GCDWebServerStreamedResponse.m */,
+				6ACCFCBE32916C01AC927F9E49F8F23F /* GCDWebServerURLEncodedFormRequest.h */,
+				0C0599CB4D98C3A99F712C3AB50534D7 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B389F5AF7DBD499421C7043A7635BAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401B264F701B403800E535042082BBBE /* GCDWebServer.h in Headers */,
+				E7C5051A0F34B996B9E419091CBBF31D /* GCDWebServerConnection.h in Headers */,
+				AD2A5C5AE34B7760FB7329489AE2E281 /* GCDWebServerDataRequest.h in Headers */,
+				8330F16950EDF3D25C2F121C264765B9 /* GCDWebServerDataResponse.h in Headers */,
+				D966D07C58A4DD14C018DE4D37943303 /* GCDWebServerErrorResponse.h in Headers */,
+				F0CCC36B49CAE05E97134F67810E5FA0 /* GCDWebServerFileRequest.h in Headers */,
+				820659E65150551CA02F98717E97513A /* GCDWebServerFileResponse.h in Headers */,
+				EC592756E403C261F95C1A266656278F /* GCDWebServerFunctions.h in Headers */,
+				1030C8B81A629CD94C5BB724F43DE01A /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				D0B97A883D1E0701396B24C1A2F02130 /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				13707DD82B4D8BE38D4B5EA6685B0512 /* GCDWebServerPrivate.h in Headers */,
+				922AA77D956412241D76CB6A81D281AA /* GCDWebServerRequest.h in Headers */,
+				98044F52E3693B11C39D33E8B08E5B75 /* GCDWebServerResponse.h in Headers */,
+				4DE5725CADFF60A1F0B2D4752BEACA88 /* GCDWebServerStreamedResponse.h in Headers */,
+				D40AB431A9767A447E24FDE5C4607BD5 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F2D687B7A3250D766F746A3483C1589 /* Pods-WeChatPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AC4DFF5413DFD6D2FF50471265AD3C /* Build configuration list for PBXNativeTarget "Pods-WeChatPlugin" */;
+			buildPhases = (
+				446968F2480067B0656BF69A955AAFEF /* Sources */,
+				BBD07A0910E9050F9D9CE0BB88158414 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A364CFFCE1F5D326A8F966F710ADCE /* PBXTargetDependency */,
+			);
+			name = "Pods-WeChatPlugin";
+			productName = "Pods-WeChatPlugin";
+			productReference = E35409E1539404F26D0FACA8C4764D15 /* libPods-WeChatPlugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9CA6073B92C45467389013BD117D2DAA /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D48799BB0D53F47A8A89429781B9EA /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				D835148C261B22FF608423A094F0B7C6 /* Sources */,
+				CEA05181BD8C1082C54933D4979E409F /* Frameworks */,
+				0B389F5AF7DBD499421C7043A7635BAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = 3BE6880EF56FA9361253885BDD907FC0 /* libGCDWebServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3DF77B4074255A7EA07856C3693BE562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA6073B92C45467389013BD117D2DAA /* GCDWebServer */,
+				4F2D687B7A3250D766F746A3483C1589 /* Pods-WeChatPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446968F2480067B0656BF69A955AAFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C062E744426F8C0ED58055243586A7A2 /* Pods-WeChatPlugin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D835148C261B22FF608423A094F0B7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D20E624AF5F0FD7ADE2B6FFD3956843 /* GCDWebServer-dummy.m in Sources */,
+				6823EE230B921E4C984BB31649A71B08 /* GCDWebServer.m in Sources */,
+				25308AA91CADA066ACA7906A151292C0 /* GCDWebServerConnection.m in Sources */,
+				A20D3432C821E60FFBAE22090D015922 /* GCDWebServerDataRequest.m in Sources */,
+				09A9D60A54D4FB51E9146886966D7237 /* GCDWebServerDataResponse.m in Sources */,
+				5EDEF232C5C6E2B7990BBF27DED20AC1 /* GCDWebServerErrorResponse.m in Sources */,
+				9B43C8C33281498ED011CB6DDFC2A8FB /* GCDWebServerFileRequest.m in Sources */,
+				2A8C82556068F34A4AF366F3F58C6A6C /* GCDWebServerFileResponse.m in Sources */,
+				1A73D183901851E105D967F75F9C6A03 /* GCDWebServerFunctions.m in Sources */,
+				96BFA39AE1136ADC32CCA69F2F9CB5BA /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				D9B9C04DCD0770E7ACC0E4FC492F47E2 /* GCDWebServerRequest.m in Sources */,
+				535AF658D2F3B190D357EC2BA6B9918E /* GCDWebServerResponse.m in Sources */,
+				B9B97BD58AB0670F218A3CE30908EAB8 /* GCDWebServerStreamedResponse.m in Sources */,
+				D077C26EAEA3ACABA1C2260D160174B7 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3A364CFFCE1F5D326A8F966F710ADCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = 9CA6073B92C45467389013BD117D2DAA /* GCDWebServer */;
+			targetProxy = 784C8A0788BAFB05139D1932881B3255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FB2B8AF195BCAF5B7062F8B3F762EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99983F513BD839D7630C8FE9EA18BB72 /* GCDWebServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		74E0B753394990C49C65694797637EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FB424B65BA8749C592C22A861842B0 /* Pods-WeChatPlugin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93BCC79DC368A7DA26FCF6513B755743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A43872F866FAC01698CB00B4ED33636F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99983F513BD839D7630C8FE9EA18BB72 /* GCDWebServer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCDWebServer;
+				PRODUCT_NAME = GCDWebServer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		D1A9127C98F35F352BBEF9FA099AC03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E96BE62771B97B9CFD7F69B22FD63B /* Pods-WeChatPlugin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1E193C2924C5ADCC07F3637C3202DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCC79DC368A7DA26FCF6513B755743 /* Debug */,
+				D1E193C2924C5ADCC07F3637C3202DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D48799BB0D53F47A8A89429781B9EA /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43872F866FAC01698CB00B4ED33636F /* Debug */,
+				1FB2B8AF195BCAF5B7062F8B3F762EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AC4DFF5413DFD6D2FF50471265AD3C /* Build configuration list for PBXNativeTarget "Pods-WeChatPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A9127C98F35F352BBEF9FA099AC03A /* Debug */,
+				74E0B753394990C49C65694797637EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
