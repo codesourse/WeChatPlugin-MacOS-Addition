@@ -1,6 +1,12 @@
 
+Thanks To
 
-![微信小助手.png](./Other/ScreenShots/wechatplugin.png)
+TKkk-iOSer/WeChatPlugin-iOS: The basic process was gleaned from the source code of this project.
+https://github.com/TKkk-iOSer/WeChatPlugin-iOS
+
+
+
+![微信小助手.png](./Other/ScreenShots/1536140837751.jpg)
 
 ![platform](https://img.shields.io/badge/platform-macos-lightgrey.svg)  [![release](https://img.shields.io/badge/release-v1.7-brightgreen.svg)](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/releases)  ![support](https://img.shields.io/badge/support-wechat%202.3.10-blue.svg)  [![Readme](https://img.shields.io/badge/readme-english-yellow.svg)](./README_EN.md)   [![GitHub license](https://img.shields.io/github/license/TKkk-iOSer/WeChatPlugin-MacOS.svg)](./LICENSE)
 
@@ -17,6 +23,8 @@
 ---
 
 ## 功能
+* 自动播放消息
+* 自动打开摄像头
 * 消息自动回复(支持特定回复 v1.7)
 * 消息防撤回
 * 远程控制(已支持语音)
