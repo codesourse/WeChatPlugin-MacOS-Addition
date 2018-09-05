@@ -1,6 +1,6 @@
 
-Thanks To
-
+感谢TKkk-iOSer作者
+我添加了两个小功能
 TKkk-iOSer/WeChatPlugin-iOS: The basic process was gleaned from the source code of this project.
 https://github.com/TKkk-iOSer/WeChatPlugin-iOS
 
